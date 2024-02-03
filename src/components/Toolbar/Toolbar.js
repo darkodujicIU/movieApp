@@ -10,7 +10,6 @@ import Axios from "axios";
 import { withRouter } from "react-router";
 import * as actions from "../../store/actions/index";
 import { connect } from "react-redux";
-import { FaKickstarter } from "react-icons/fa";
 import { IoIosCloseCircleOutline } from "react-icons/io";
 import {
   FaFacebookF,

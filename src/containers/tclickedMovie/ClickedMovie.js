@@ -79,6 +79,7 @@ class ClickedMovie extends Component {
             "https://image.tmdb.org/t/p/original" + el.profile_path;
           el.profile =
             "http://image.tmdb.org/t/p/w185//nBNZadXqJSdt05SHLqgT0HuC5Gm.jpg";
+            return null;
         });
 
         results.name = results.cast.map((el) => {
@@ -238,7 +239,7 @@ class ClickedMovie extends Component {
                   return el.director;
                 })}
                 movie={el.genres.map((el) => {
-                  return el.name + "  " + ", ";
+                  return el.name + " , ";
                 })}
                 runt={el.runningTimeFull}
                 name={this.state.fetchedActors.map((el) => {

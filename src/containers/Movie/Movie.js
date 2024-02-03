@@ -109,7 +109,7 @@ class Movie extends Component {
                       id={el.id}
                       image={el.imageCreate}
                       title={el.title}
-                      bioskop={"/" + " " + el.release_date}
+                      bioskop={"/ " + el.release_date}
                       rev={el.vote_average}
                     />
                   </ScrollAnimation>

@@ -12,7 +12,7 @@ const pagination = (props) => {
     //Creation of li tag with passed data to create numbers of pagination
     pageLinks.push(
       <li key={i} className={`${classes.paginationitem} ${active}`}>
-        <a onClick={() => props.nextPage(i)} className={classes.paginationlink}>
+        <a href="/#" onClick={() => props.nextPage(i)} className={classes.paginationlink}>
           {i}
         </a>
       </li>
@@ -27,7 +27,7 @@ const pagination = (props) => {
             className={classes.paginationitem}
             onClick={() => props.nextPage(props.currentPage - 1)}
           >
-            <a className={classes.paginationlink}>prev</a>
+            <a href="/#" className={classes.paginationlink}>prev</a>
           </li>
         ) : (
           ""
@@ -38,7 +38,7 @@ const pagination = (props) => {
             className={classes.paginationitem}
             onClick={() => props.nextPage(props.currentPage + 1)}
           >
-            <a className={classes.paginationlink}>Next</a>
+            <a href="/#" className={classes.paginationlink}>Next</a>
           </li>
         ) : (
           ""
