@@ -67,7 +67,7 @@ const ClickedActorComp = React.memo((props) => {
           </div>
         </ScrollAnimation>
         <div className={classes.work}>
-          <a href=" #" className={classes.worka}>
+          <a href={() => false} className={classes.worka}>
             <span className={classes.prevWork}>Previous work</span>
           </a>
         </div>
@@ -78,7 +78,7 @@ const ClickedActorComp = React.memo((props) => {
         </span>
         <span className={classes.footering}>
           All data that you see is provided via{" "}
-          <a href=" #" className={classes.tmdb}>
+          <a href={() => false} className={classes.tmdb}>
             tMDB .
           </a>
         </span>
