@@ -85,7 +85,6 @@ const clickedCompMovie = React.memo((props) => {
 
               <button
                 onClick={props.clickedSee}
-                disabled={!props.token}
                 className={classes.buttonSave}
               >
                 <div className={classes.fr}>Visit site</div>
