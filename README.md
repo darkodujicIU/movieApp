@@ -1,6 +1,6 @@
 # INSTALATION - RUNNING IT LIVE: 
 
-After you have downloaded the project:
+After you have downloaded the project, type in terminal:
 * $env:NODE_OPTIONS = "--openssl-legacy-provider"
 * npm install --legacy-peer-deps
 * npm start
